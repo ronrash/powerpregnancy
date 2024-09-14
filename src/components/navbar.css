@@ -1,0 +1,26 @@
+/* Navbar.css */
+.navbar ul {
+    list-style: none; /* Remove bullets from the list */
+    display: flex; /* Make the items align horizontally */
+    gap: 20px; /* Space between the list items */
+    padding-left: 0;
+    margin: 0;
+    align-items: center; /* Vertically align the items */
+}
+
+.navbar li {
+    display: inline; /* Ensure each item is inline */
+}
+
+.navbar a {
+    color: white; /* White color for the text */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Light background on hover */
+    border-radius: 5px; /* Rounded corners for the hover effect */
+}
